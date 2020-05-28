@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Bill Me</title>
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="icon" href="logo.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Karla&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section class="genbill">
+    <div class="genbill-box">
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="logo.png" alt="" width="10%">
+          <h1>BillMe</h1>
+        </div>
+        <div class="col-lg-6">
+          <h6>
+            Invoice ID: INV0001
+            <br>28 May 2020 <br>
+            Mangalore
+          </h6>
+        </div>
+      </div>
+      <hr style="border: 1px solid red;">
+      <h5>Bill to:</h5>
+      <h6>
+        ABC <br>
+        address line 1 <br>
+        address line 2 <br>
+        phone
+      </h6>
+      <br>
+      <table class="table table-striped">
+        <tr class="header">
+          <td>PRODUCT NAME</td>
+          <td>PRICE</td>
+          <td>QTY</td>
+          <td>SUBTOTAL</td>
+        </tr>
+        <tr>
+          <td>Product 1</td>
+          <td>1000</td>
+          <td>5</td>
+          <td>5000</td>
+        </tr>
+        <tr>
+          <td colspan="3" style="text-align:right;">Discount:</td>
+          <td><input type="number" name="" class="form-control" placeholder="" value="" readonly></td>
+        </tr>
+        <tr>
+          <td colspan="3" style="text-align:right;">Grand Total:</td>
+          <td><input type="number" name="" class="form-control" placeholder="" value="" readonly></td>
+        </tr>
+      </table>
+      <br>
+      <center>
+      <button class="btn btn-success" onclick="window.print()">Print</button>
+      <a class="btn btn-danger" href="generatebill.html">Back</a>
+      </center>
+      <br>
+      <div class="footer">
+        <p style="text-align:center;">© 2020 BillMe.</p>
+      </div>
+
+
+    </div>
+  </section>
+</body>
+
+</html>

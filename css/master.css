@@ -1,0 +1,84 @@
+.navbar-brand{
+  font-family: 'Karla', sans-serif;
+  font-size: 2rem;
+  padding: 2% 8%;
+}
+
+.navbar span{
+  color: white;
+  margin-right: 3rem;
+  font-family: 'Karla', sans-serif;
+  font-size: 1rem;
+}
+
+.navbar a{
+  margin-right:3rem;
+}
+
+.option-box{
+  padding: 10% 15%;
+  text-align: center;
+}
+
+.option-box a{
+  margin-top: 1rem;
+  padding-top: 50%;
+  padding-bottom:50%;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 100%;
+}
+
+
+#a {
+  background-color: #8ec6c5;
+  border: none;
+}
+
+#b{
+  background-color: #6983aa;
+  border: none;
+}
+
+#c{
+  background-color: #8566aa;
+  border: none;
+}
+
+.header td{
+  font-weight: bold;
+}
+
+.bill-box{
+  padding: 2% 2%;
+}
+
+.addproductinfo-box{
+  padding: 5% 20%;
+}
+
+.genbill-box{
+  padding: 5% 25%;
+}
+
+.genbill{
+  font-family: 'Karla', sans-serif;
+}
+
+.col-lg-6 h6{
+  text-align: right;
+
+}
+
+.table{
+  font-size: 0.9rem;
+}
+
+.footer{
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+}
+
+.genbillinfo-box{
+  padding: 5% 20%;
+}
